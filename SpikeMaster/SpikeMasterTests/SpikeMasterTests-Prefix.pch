@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SpikeMasterTests' target in the 'SpikeMasterTests' project
+//
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+#endif

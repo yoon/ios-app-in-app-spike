@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B11D84C1423D2D300AC799D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84B1423D2D300AC799D /* UIKit.framework */; };
+		3B11D84E1423D2D300AC799D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84D1423D2D300AC799D /* Foundation.framework */; };
+		3B11D8501423D2D300AC799D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84F1423D2D300AC799D /* CoreGraphics.framework */; };
+		3B11D8561423D2D300AC799D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D8541423D2D300AC799D /* InfoPlist.strings */; };
+		3B11D8591423D2D300AC799D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D8581423D2D300AC799D /* main.m */; };
+		3B11D85C1423D2D300AC799D /* SpikeSlaveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D85B1423D2D300AC799D /* SpikeSlaveAppDelegate.m */; };
+		3B11D85F1423D2D300AC799D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D85D1423D2D300AC799D /* MainWindow.xib */; };
+		3B11D8621423D2D300AC799D /* SpikeSlaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D8611423D2D300AC799D /* SpikeSlaveViewController.m */; };
+		3B11D8651423D2D300AC799D /* SpikeSlaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D8631423D2D300AC799D /* SpikeSlaveViewController.xib */; };
+		3B11D86C1423D2D300AC799D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84B1423D2D300AC799D /* UIKit.framework */; };
+		3B11D86D1423D2D300AC799D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84D1423D2D300AC799D /* Foundation.framework */; };
+		3B11D86E1423D2D300AC799D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D84F1423D2D300AC799D /* CoreGraphics.framework */; };
+		3B11D8761423D2D300AC799D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D8741423D2D300AC799D /* InfoPlist.strings */; };
+		3B11D8791423D2D300AC799D /* SpikeSlaveTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D8781423D2D300AC799D /* SpikeSlaveTests.h */; };
+		3B11D87B1423D2D300AC799D /* SpikeSlaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D87A1423D2D300AC799D /* SpikeSlaveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B11D86F1423D2D300AC799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B11D83E1423D2D200AC799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B11D8461423D2D300AC799D;
+			remoteInfo = SpikeSlave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B11D8471423D2D300AC799D /* SpikeSlave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpikeSlave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11D84B1423D2D300AC799D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B11D84D1423D2D300AC799D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B11D84F1423D2D300AC799D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B11D8531423D2D300AC799D /* SpikeSlave-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSlave-Info.plist"; sourceTree = "<group>"; };
+		3B11D8551423D2D300AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D8571423D2D300AC799D /* SpikeSlave-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSlave-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D8581423D2D300AC799D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B11D85A1423D2D300AC799D /* SpikeSlaveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveAppDelegate.h; sourceTree = "<group>"; };
+		3B11D85B1423D2D300AC799D /* SpikeSlaveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveAppDelegate.m; sourceTree = "<group>"; };
+		3B11D85E1423D2D300AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3B11D8601423D2D300AC799D /* SpikeSlaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveViewController.h; sourceTree = "<group>"; };
+		3B11D8611423D2D300AC799D /* SpikeSlaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveViewController.m; sourceTree = "<group>"; };
+		3B11D8641423D2D300AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpikeSlaveViewController.xib; sourceTree = "<group>"; };
+		3B11D86B1423D2D300AC799D /* SpikeSlaveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpikeSlaveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11D8731423D2D300AC799D /* SpikeSlaveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSlaveTests-Info.plist"; sourceTree = "<group>"; };
+		3B11D8751423D2D300AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D8771423D2D300AC799D /* SpikeSlaveTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSlaveTests-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D8781423D2D300AC799D /* SpikeSlaveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveTests.h; sourceTree = "<group>"; };
+		3B11D87A1423D2D300AC799D /* SpikeSlaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B11D8441423D2D300AC799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D84C1423D2D300AC799D /* UIKit.framework in Frameworks */,
+				3B11D84E1423D2D300AC799D /* Foundation.framework in Frameworks */,
+				3B11D8501423D2D300AC799D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D8671423D2D300AC799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D86C1423D2D300AC799D /* UIKit.framework in Frameworks */,
+				3B11D86D1423D2D300AC799D /* Foundation.framework in Frameworks */,
+				3B11D86E1423D2D300AC799D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B11D83C1423D2D200AC799D = {
+			isa = PBXGroup;
+			children = (
+				3B11D8511423D2D300AC799D /* SpikeSlave */,
+				3B11D8711423D2D300AC799D /* SpikeSlaveTests */,
+				3B11D84A1423D2D300AC799D /* Frameworks */,
+				3B11D8481423D2D300AC799D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B11D8481423D2D300AC799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8471423D2D300AC799D /* SpikeSlave.app */,
+				3B11D86B1423D2D300AC799D /* SpikeSlaveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B11D84A1423D2D300AC799D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D84B1423D2D300AC799D /* UIKit.framework */,
+				3B11D84D1423D2D300AC799D /* Foundation.framework */,
+				3B11D84F1423D2D300AC799D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B11D8511423D2D300AC799D /* SpikeSlave */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D85A1423D2D300AC799D /* SpikeSlaveAppDelegate.h */,
+				3B11D85B1423D2D300AC799D /* SpikeSlaveAppDelegate.m */,
+				3B11D85D1423D2D300AC799D /* MainWindow.xib */,
+				3B11D8601423D2D300AC799D /* SpikeSlaveViewController.h */,
+				3B11D8611423D2D300AC799D /* SpikeSlaveViewController.m */,
+				3B11D8631423D2D300AC799D /* SpikeSlaveViewController.xib */,
+				3B11D8521423D2D300AC799D /* Supporting Files */,
+			);
+			path = SpikeSlave;
+			sourceTree = "<group>";
+		};
+		3B11D8521423D2D300AC799D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8531423D2D300AC799D /* SpikeSlave-Info.plist */,
+				3B11D8541423D2D300AC799D /* InfoPlist.strings */,
+				3B11D8571423D2D300AC799D /* SpikeSlave-Prefix.pch */,
+				3B11D8581423D2D300AC799D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B11D8711423D2D300AC799D /* SpikeSlaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8781423D2D300AC799D /* SpikeSlaveTests.h */,
+				3B11D87A1423D2D300AC799D /* SpikeSlaveTests.m */,
+				3B11D8721423D2D300AC799D /* Supporting Files */,
+			);
+			path = SpikeSlaveTests;
+			sourceTree = "<group>";
+		};
+		3B11D8721423D2D300AC799D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8731423D2D300AC799D /* SpikeSlaveTests-Info.plist */,
+				3B11D8741423D2D300AC799D /* InfoPlist.strings */,
+				3B11D8771423D2D300AC799D /* SpikeSlaveTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B11D8461423D2D300AC799D /* SpikeSlave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11D87E1423D2D300AC799D /* Build configuration list for PBXNativeTarget "SpikeSlave" */;
+			buildPhases = (
+				3B11D8431423D2D300AC799D /* Sources */,
+				3B11D8441423D2D300AC799D /* Frameworks */,
+				3B11D8451423D2D300AC799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpikeSlave;
+			productName = SpikeSlave;
+			productReference = 3B11D8471423D2D300AC799D /* SpikeSlave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B11D86A1423D2D300AC799D /* SpikeSlaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11D8811423D2D300AC799D /* Build configuration list for PBXNativeTarget "SpikeSlaveTests" */;
+			buildPhases = (
+				3B11D8661423D2D300AC799D /* Sources */,
+				3B11D8671423D2D300AC799D /* Frameworks */,
+				3B11D8681423D2D300AC799D /* Resources */,
+				3B11D8691423D2D300AC799D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B11D8701423D2D300AC799D /* PBXTargetDependency */,
+			);
+			name = SpikeSlaveTests;
+			productName = SpikeSlaveTests;
+			productReference = 3B11D86B1423D2D300AC799D /* SpikeSlaveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B11D83E1423D2D200AC799D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3B11D8411423D2D300AC799D /* Build configuration list for PBXProject "SpikeSlave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B11D83C1423D2D200AC799D;
+			productRefGroup = 3B11D8481423D2D300AC799D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B11D8461423D2D300AC799D /* SpikeSlave */,
+				3B11D86A1423D2D300AC799D /* SpikeSlaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B11D8451423D2D300AC799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D8561423D2D300AC799D /* InfoPlist.strings in Resources */,
+				3B11D85F1423D2D300AC799D /* MainWindow.xib in Resources */,
+				3B11D8651423D2D300AC799D /* SpikeSlaveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D8681423D2D300AC799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D8761423D2D300AC799D /* InfoPlist.strings in Resources */,
+				3B11D8791423D2D300AC799D /* SpikeSlaveTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B11D8691423D2D300AC799D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B11D8431423D2D300AC799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D8591423D2D300AC799D /* main.m in Sources */,
+				3B11D85C1423D2D300AC799D /* SpikeSlaveAppDelegate.m in Sources */,
+				3B11D8621423D2D300AC799D /* SpikeSlaveViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D8661423D2D300AC799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D87B1423D2D300AC799D /* SpikeSlaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B11D8701423D2D300AC799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B11D8461423D2D300AC799D /* SpikeSlave */;
+			targetProxy = 3B11D86F1423D2D300AC799D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B11D8541423D2D300AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8551423D2D300AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B11D85D1423D2D300AC799D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D85E1423D2D300AC799D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3B11D8631423D2D300AC799D /* SpikeSlaveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8641423D2D300AC799D /* en */,
+			);
+			name = SpikeSlaveViewController.xib;
+			sourceTree = "<group>";
+		};
+		3B11D8741423D2D300AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8751423D2D300AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B11D87C1423D2D300AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3B11D87D1423D2D300AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		3B11D87F1423D2D300AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeSlave/SpikeSlave-Prefix.pch";
+				INFOPLIST_FILE = "SpikeSlave/SpikeSlave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B11D8801423D2D300AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeSlave/SpikeSlave-Prefix.pch";
+				INFOPLIST_FILE = "SpikeSlave/SpikeSlave-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B11D8821423D2D300AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpikeSlave.app/SpikeSlave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeSlaveTests/SpikeSlaveTests-Prefix.pch";
+				INFOPLIST_FILE = "SpikeSlaveTests/SpikeSlaveTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3B11D8831423D2D300AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpikeSlave.app/SpikeSlave";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeSlaveTests/SpikeSlaveTests-Prefix.pch";
+				INFOPLIST_FILE = "SpikeSlaveTests/SpikeSlaveTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B11D8411423D2D300AC799D /* Build configuration list for PBXProject "SpikeSlave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D87C1423D2D300AC799D /* Debug */,
+				3B11D87D1423D2D300AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B11D87E1423D2D300AC799D /* Build configuration list for PBXNativeTarget "SpikeSlave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D87F1423D2D300AC799D /* Debug */,
+				3B11D8801423D2D300AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B11D8811423D2D300AC799D /* Build configuration list for PBXNativeTarget "SpikeSlaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D8821423D2D300AC799D /* Debug */,
+				3B11D8831423D2D300AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B11D83E1423D2D200AC799D /* Project object */;
+}

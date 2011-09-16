@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B11D7B61423AC4900AC799D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B51423AC4900AC799D /* UIKit.framework */; };
+		3B11D7B81423AC4900AC799D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B71423AC4900AC799D /* Foundation.framework */; };
+		3B11D7BA1423AC4900AC799D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B91423AC4900AC799D /* CoreGraphics.framework */; };
+		3B11D7C01423AC4900AC799D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D7BE1423AC4900AC799D /* InfoPlist.strings */; };
+		3B11D7C31423AC4900AC799D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D7C21423AC4900AC799D /* main.m */; };
+		3B11D7C61423AC4900AC799D /* SpikeMasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D7C51423AC4900AC799D /* SpikeMasterAppDelegate.m */; };
+		3B11D7C91423AC4900AC799D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D7C71423AC4900AC799D /* MainWindow.xib */; };
+		3B11D7CC1423AC4900AC799D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D7CB1423AC4900AC799D /* DetailViewController.m */; };
+		3B11D7CF1423AC4900AC799D /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D7CD1423AC4900AC799D /* DetailView.xib */; };
+		3B11D7D21423AC4900AC799D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D7D11423AC4900AC799D /* RootViewController.m */; };
+		3B11D7D91423AC4900AC799D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B51423AC4900AC799D /* UIKit.framework */; };
+		3B11D7DA1423AC4900AC799D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B71423AC4900AC799D /* Foundation.framework */; };
+		3B11D7DB1423AC4900AC799D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B11D7B91423AC4900AC799D /* CoreGraphics.framework */; };
+		3B11D7E31423AC4900AC799D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D7E11423AC4900AC799D /* InfoPlist.strings */; };
+		3B11D7E61423AC4900AC799D /* SpikeMasterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D7E51423AC4900AC799D /* SpikeMasterTests.h */; };
+		3B11D7E81423AC4900AC799D /* SpikeMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D7E71423AC4900AC799D /* SpikeMasterTests.m */; };
+		3B11D8931423D5C200AC799D /* MinimalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D88F1423D59400AC799D /* MinimalView.xib */; };
+		3B11D8BF1423D92200AC799D /* SpikeSlaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B11D8A61423D90100AC799D /* SpikeSlaveViewController.xib */; };
+		3B11D8C31423D99900AC799D /* SpikeSlaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11D8AE1423D90100AC799D /* SpikeSlaveViewController.m */; };
+		3BAB34D51423EB2100C64CE6 /* SpikeSplitMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB34BA1423EB1800C64CE6 /* SpikeSplitMainWindow.xib */; };
+		3BAB34D61423EB2800C64CE6 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB34BE1423EB1800C64CE6 /* SectionViewController.m */; };
+		3BAB34D71423EB2800C64CE6 /* SpikeSplitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB34C21423EB1800C64CE6 /* SpikeSplitAppDelegate.m */; };
+		3BAB34D81423EB2800C64CE6 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB34C41423EB1800C64CE6 /* SurveyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B11D7DC1423AC4900AC799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B11D7A81423AC4800AC799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B11D7B01423AC4800AC799D;
+			remoteInfo = SpikeMaster;
+		};
+		3B11D8BB1423D90100AC799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B11D8AF1423D90100AC799D /* SpikeSlave.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B11D8471423D2D300AC799D;
+			remoteInfo = SpikeSlave;
+		};
+		3B11D8BD1423D90100AC799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B11D8AF1423D90100AC799D /* SpikeSlave.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B11D86B1423D2D300AC799D;
+			remoteInfo = SpikeSlaveTests;
+		};
+		3BAB34D11423EB1800C64CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAB34C51423EB1800C64CE6 /* SpikeSplit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B11DD0B1423DE8400AC799D;
+			remoteInfo = SpikeSplit;
+		};
+		3BAB34D31423EB1800C64CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAB34C51423EB1800C64CE6 /* SpikeSplit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B11DD321423DE8400AC799D;
+			remoteInfo = SpikeSplitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B11D7B11423AC4800AC799D /* SpikeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpikeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11D7B51423AC4900AC799D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B11D7B71423AC4900AC799D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B11D7B91423AC4900AC799D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B11D7BD1423AC4900AC799D /* SpikeMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeMaster-Info.plist"; sourceTree = "<group>"; };
+		3B11D7BF1423AC4900AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D7C11423AC4900AC799D /* SpikeMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeMaster-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D7C21423AC4900AC799D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B11D7C41423AC4900AC799D /* SpikeMasterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeMasterAppDelegate.h; sourceTree = "<group>"; };
+		3B11D7C51423AC4900AC799D /* SpikeMasterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeMasterAppDelegate.m; sourceTree = "<group>"; };
+		3B11D7C81423AC4900AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3B11D7CA1423AC4900AC799D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3B11D7CB1423AC4900AC799D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3B11D7CE1423AC4900AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		3B11D7D01423AC4900AC799D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3B11D7D11423AC4900AC799D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3B11D7D81423AC4900AC799D /* SpikeMasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpikeMasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B11D7E01423AC4900AC799D /* SpikeMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeMasterTests-Info.plist"; sourceTree = "<group>"; };
+		3B11D7E21423AC4900AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D7E41423AC4900AC799D /* SpikeMasterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeMasterTests-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D7E51423AC4900AC799D /* SpikeMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeMasterTests.h; sourceTree = "<group>"; };
+		3B11D7E71423AC4900AC799D /* SpikeMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeMasterTests.m; sourceTree = "<group>"; };
+		3B11D88F1423D59400AC799D /* MinimalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinimalView.xib; sourceTree = "<group>"; };
+		3B11D8901423D59400AC799D /* SpikeMinimal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SpikeMinimal.xcodeproj; sourceTree = "<group>"; };
+		3B11D8A31423D90100AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D8A51423D90100AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3B11D8A71423D90100AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpikeSlaveViewController.xib; sourceTree = "<group>"; };
+		3B11D8A81423D90100AC799D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B11D8A91423D90100AC799D /* SpikeSlave-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSlave-Info.plist"; sourceTree = "<group>"; };
+		3B11D8AA1423D90100AC799D /* SpikeSlave-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSlave-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D8AB1423D90100AC799D /* SpikeSlaveAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveAppDelegate.h; sourceTree = "<group>"; };
+		3B11D8AC1423D90100AC799D /* SpikeSlaveAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveAppDelegate.m; sourceTree = "<group>"; };
+		3B11D8AD1423D90100AC799D /* SpikeSlaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveViewController.h; sourceTree = "<group>"; };
+		3B11D8AE1423D90100AC799D /* SpikeSlaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveViewController.m; sourceTree = "<group>"; };
+		3B11D8AF1423D90100AC799D /* SpikeSlave.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SpikeSlave.xcodeproj; sourceTree = "<group>"; };
+		3B11D8B41423D90100AC799D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B11D8B51423D90100AC799D /* SpikeSlaveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSlaveTests-Info.plist"; sourceTree = "<group>"; };
+		3B11D8B61423D90100AC799D /* SpikeSlaveTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSlaveTests-Prefix.pch"; sourceTree = "<group>"; };
+		3B11D8B71423D90100AC799D /* SpikeSlaveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSlaveTests.h; sourceTree = "<group>"; };
+		3B11D8B81423D90100AC799D /* SpikeSlaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSlaveTests.m; sourceTree = "<group>"; };
+		3BAB34B71423EB1800C64CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAB34B91423EB1800C64CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SectionView.xib; sourceTree = "<group>"; };
+		3BAB34BB1423EB1800C64CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpikeSplitMainWindow.xib; sourceTree = "<group>"; };
+		3BAB34BC1423EB1800C64CE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BAB34BD1423EB1800C64CE6 /* SectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		3BAB34BE1423EB1800C64CE6 /* SectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		3BAB34BF1423EB1800C64CE6 /* SpikeSplit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSplit-Info.plist"; sourceTree = "<group>"; };
+		3BAB34C01423EB1800C64CE6 /* SpikeSplit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSplit-Prefix.pch"; sourceTree = "<group>"; };
+		3BAB34C11423EB1800C64CE6 /* SpikeSplitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSplitAppDelegate.h; sourceTree = "<group>"; };
+		3BAB34C21423EB1800C64CE6 /* SpikeSplitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSplitAppDelegate.m; sourceTree = "<group>"; };
+		3BAB34C31423EB1800C64CE6 /* SurveyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		3BAB34C41423EB1800C64CE6 /* SurveyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		3BAB34C51423EB1800C64CE6 /* SpikeSplit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SpikeSplit.xcodeproj; sourceTree = "<group>"; };
+		3BAB34CA1423EB1800C64CE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAB34CB1423EB1800C64CE6 /* SpikeSplitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpikeSplitTests-Info.plist"; sourceTree = "<group>"; };
+		3BAB34CC1423EB1800C64CE6 /* SpikeSplitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpikeSplitTests-Prefix.pch"; sourceTree = "<group>"; };
+		3BAB34CD1423EB1800C64CE6 /* SpikeSplitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpikeSplitTests.h; sourceTree = "<group>"; };
+		3BAB34CE1423EB1800C64CE6 /* SpikeSplitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpikeSplitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B11D7AE1423AC4800AC799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D7B61423AC4900AC799D /* UIKit.framework in Frameworks */,
+				3B11D7B81423AC4900AC799D /* Foundation.framework in Frameworks */,
+				3B11D7BA1423AC4900AC799D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D7D41423AC4900AC799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D7D91423AC4900AC799D /* UIKit.framework in Frameworks */,
+				3B11D7DA1423AC4900AC799D /* Foundation.framework in Frameworks */,
+				3B11D7DB1423AC4900AC799D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B11D7A61423AC4800AC799D = {
+			isa = PBXGroup;
+			children = (
+				3BAB34B41423EB1800C64CE6 /* SpikeSplit */,
+				3B11D8A01423D90000AC799D /* SpikeSlave */,
+				3B11D88E1423D59400AC799D /* SpikeMinimal */,
+				3B11D7BB1423AC4900AC799D /* SpikeMaster */,
+				3B11D7DE1423AC4900AC799D /* SpikeMasterTests */,
+				3B11D7B41423AC4900AC799D /* Frameworks */,
+				3B11D7B21423AC4800AC799D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B11D7B21423AC4800AC799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7B11423AC4800AC799D /* SpikeMaster.app */,
+				3B11D7D81423AC4900AC799D /* SpikeMasterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B11D7B41423AC4900AC799D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7B51423AC4900AC799D /* UIKit.framework */,
+				3B11D7B71423AC4900AC799D /* Foundation.framework */,
+				3B11D7B91423AC4900AC799D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B11D7BB1423AC4900AC799D /* SpikeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7C41423AC4900AC799D /* SpikeMasterAppDelegate.h */,
+				3B11D7C51423AC4900AC799D /* SpikeMasterAppDelegate.m */,
+				3B11D7C71423AC4900AC799D /* MainWindow.xib */,
+				3B11D7CA1423AC4900AC799D /* DetailViewController.h */,
+				3B11D7CB1423AC4900AC799D /* DetailViewController.m */,
+				3B11D7CD1423AC4900AC799D /* DetailView.xib */,
+				3B11D7D01423AC4900AC799D /* RootViewController.h */,
+				3B11D7D11423AC4900AC799D /* RootViewController.m */,
+				3B11D7BC1423AC4900AC799D /* Supporting Files */,
+			);
+			path = SpikeMaster;
+			sourceTree = "<group>";
+		};
+		3B11D7BC1423AC4900AC799D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7BD1423AC4900AC799D /* SpikeMaster-Info.plist */,
+				3B11D7BE1423AC4900AC799D /* InfoPlist.strings */,
+				3B11D7C11423AC4900AC799D /* SpikeMaster-Prefix.pch */,
+				3B11D7C21423AC4900AC799D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B11D7DE1423AC4900AC799D /* SpikeMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7E51423AC4900AC799D /* SpikeMasterTests.h */,
+				3B11D7E71423AC4900AC799D /* SpikeMasterTests.m */,
+				3B11D7DF1423AC4900AC799D /* Supporting Files */,
+			);
+			path = SpikeMasterTests;
+			sourceTree = "<group>";
+		};
+		3B11D7DF1423AC4900AC799D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D7E01423AC4900AC799D /* SpikeMasterTests-Info.plist */,
+				3B11D7E11423AC4900AC799D /* InfoPlist.strings */,
+				3B11D7E41423AC4900AC799D /* SpikeMasterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B11D88E1423D59400AC799D /* SpikeMinimal */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D88F1423D59400AC799D /* MinimalView.xib */,
+				3B11D8901423D59400AC799D /* SpikeMinimal.xcodeproj */,
+			);
+			name = SpikeMinimal;
+			path = ../SpikeMinimal;
+			sourceTree = "<group>";
+		};
+		3B11D8911423D59400AC799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B11D8A01423D90000AC799D /* SpikeSlave */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8A11423D90000AC799D /* SpikeSlave */,
+				3B11D8AF1423D90100AC799D /* SpikeSlave.xcodeproj */,
+				3B11D8B21423D90100AC799D /* SpikeSlaveTests */,
+			);
+			name = SpikeSlave;
+			path = ../SpikeSlave;
+			sourceTree = "<group>";
+		};
+		3B11D8A11423D90000AC799D /* SpikeSlave */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8A21423D90100AC799D /* InfoPlist.strings */,
+				3B11D8A41423D90100AC799D /* MainWindow.xib */,
+				3B11D8A61423D90100AC799D /* SpikeSlaveViewController.xib */,
+				3B11D8A81423D90100AC799D /* main.m */,
+				3B11D8A91423D90100AC799D /* SpikeSlave-Info.plist */,
+				3B11D8AA1423D90100AC799D /* SpikeSlave-Prefix.pch */,
+				3B11D8AB1423D90100AC799D /* SpikeSlaveAppDelegate.h */,
+				3B11D8AC1423D90100AC799D /* SpikeSlaveAppDelegate.m */,
+				3B11D8AD1423D90100AC799D /* SpikeSlaveViewController.h */,
+				3B11D8AE1423D90100AC799D /* SpikeSlaveViewController.m */,
+			);
+			path = SpikeSlave;
+			sourceTree = "<group>";
+		};
+		3B11D8B01423D90100AC799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8BC1423D90100AC799D /* SpikeSlave.app */,
+				3B11D8BE1423D90100AC799D /* SpikeSlaveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B11D8B21423D90100AC799D /* SpikeSlaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B11D8B31423D90100AC799D /* InfoPlist.strings */,
+				3B11D8B51423D90100AC799D /* SpikeSlaveTests-Info.plist */,
+				3B11D8B61423D90100AC799D /* SpikeSlaveTests-Prefix.pch */,
+				3B11D8B71423D90100AC799D /* SpikeSlaveTests.h */,
+				3B11D8B81423D90100AC799D /* SpikeSlaveTests.m */,
+			);
+			path = SpikeSlaveTests;
+			sourceTree = "<group>";
+		};
+		3BAB34B41423EB1800C64CE6 /* SpikeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB34B51423EB1800C64CE6 /* SpikeSplit */,
+				3BAB34C51423EB1800C64CE6 /* SpikeSplit.xcodeproj */,
+				3BAB34C81423EB1800C64CE6 /* SpikeSplitTests */,
+			);
+			name = SpikeSplit;
+			path = ../SpikeSplit;
+			sourceTree = "<group>";
+		};
+		3BAB34B51423EB1800C64CE6 /* SpikeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB34B61423EB1800C64CE6 /* InfoPlist.strings */,
+				3BAB34B81423EB1800C64CE6 /* SectionView.xib */,
+				3BAB34BA1423EB1800C64CE6 /* SpikeSplitMainWindow.xib */,
+				3BAB34BC1423EB1800C64CE6 /* main.m */,
+				3BAB34BD1423EB1800C64CE6 /* SectionViewController.h */,
+				3BAB34BE1423EB1800C64CE6 /* SectionViewController.m */,
+				3BAB34BF1423EB1800C64CE6 /* SpikeSplit-Info.plist */,
+				3BAB34C01423EB1800C64CE6 /* SpikeSplit-Prefix.pch */,
+				3BAB34C11423EB1800C64CE6 /* SpikeSplitAppDelegate.h */,
+				3BAB34C21423EB1800C64CE6 /* SpikeSplitAppDelegate.m */,
+				3BAB34C31423EB1800C64CE6 /* SurveyViewController.h */,
+				3BAB34C41423EB1800C64CE6 /* SurveyViewController.m */,
+			);
+			path = SpikeSplit;
+			sourceTree = "<group>";
+		};
+		3BAB34C61423EB1800C64CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB34D21423EB1800C64CE6 /* SpikeSplit.app */,
+				3BAB34D41423EB1800C64CE6 /* SpikeSplitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAB34C81423EB1800C64CE6 /* SpikeSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB34C91423EB1800C64CE6 /* InfoPlist.strings */,
+				3BAB34CB1423EB1800C64CE6 /* SpikeSplitTests-Info.plist */,
+				3BAB34CC1423EB1800C64CE6 /* SpikeSplitTests-Prefix.pch */,
+				3BAB34CD1423EB1800C64CE6 /* SpikeSplitTests.h */,
+				3BAB34CE1423EB1800C64CE6 /* SpikeSplitTests.m */,
+			);
+			path = SpikeSplitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B11D7B01423AC4800AC799D /* SpikeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11D7EB1423AC4900AC799D /* Build configuration list for PBXNativeTarget "SpikeMaster" */;
+			buildPhases = (
+				3B11D7AD1423AC4800AC799D /* Sources */,
+				3B11D7AE1423AC4800AC799D /* Frameworks */,
+				3B11D7AF1423AC4800AC799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpikeMaster;
+			productName = SpikeMaster;
+			productReference = 3B11D7B11423AC4800AC799D /* SpikeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B11D7D71423AC4900AC799D /* SpikeMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B11D7EE1423AC4900AC799D /* Build configuration list for PBXNativeTarget "SpikeMasterTests" */;
+			buildPhases = (
+				3B11D7D31423AC4900AC799D /* Sources */,
+				3B11D7D41423AC4900AC799D /* Frameworks */,
+				3B11D7D51423AC4900AC799D /* Resources */,
+				3B11D7D61423AC4900AC799D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B11D7DD1423AC4900AC799D /* PBXTargetDependency */,
+			);
+			name = SpikeMasterTests;
+			productName = SpikeMasterTests;
+			productReference = 3B11D7D81423AC4900AC799D /* SpikeMasterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B11D7A81423AC4800AC799D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3B11D7AB1423AC4800AC799D /* Build configuration list for PBXProject "SpikeMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B11D7A61423AC4800AC799D;
+			productRefGroup = 3B11D7B21423AC4800AC799D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B11D8911423D59400AC799D /* Products */;
+					ProjectRef = 3B11D8901423D59400AC799D /* SpikeMinimal.xcodeproj */;
+				},
+				{
+					ProductGroup = 3B11D8B01423D90100AC799D /* Products */;
+					ProjectRef = 3B11D8AF1423D90100AC799D /* SpikeSlave.xcodeproj */;
+				},
+				{
+					ProductGroup = 3BAB34C61423EB1800C64CE6 /* Products */;
+					ProjectRef = 3BAB34C51423EB1800C64CE6 /* SpikeSplit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3B11D7B01423AC4800AC799D /* SpikeMaster */,
+				3B11D7D71423AC4900AC799D /* SpikeMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3B11D8BC1423D90100AC799D /* SpikeSlave.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SpikeSlave.app;
+			remoteRef = 3B11D8BB1423D90100AC799D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3B11D8BE1423D90100AC799D /* SpikeSlaveTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SpikeSlaveTests.octest;
+			remoteRef = 3B11D8BD1423D90100AC799D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3BAB34D21423EB1800C64CE6 /* SpikeSplit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SpikeSplit.app;
+			remoteRef = 3BAB34D11423EB1800C64CE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3BAB34D41423EB1800C64CE6 /* SpikeSplitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SpikeSplitTests.octest;
+			remoteRef = 3BAB34D31423EB1800C64CE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B11D7AF1423AC4800AC799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB34D51423EB2100C64CE6 /* SpikeSplitMainWindow.xib in Resources */,
+				3B11D8BF1423D92200AC799D /* SpikeSlaveViewController.xib in Resources */,
+				3B11D8931423D5C200AC799D /* MinimalView.xib in Resources */,
+				3B11D7C01423AC4900AC799D /* InfoPlist.strings in Resources */,
+				3B11D7C91423AC4900AC799D /* MainWindow.xib in Resources */,
+				3B11D7CF1423AC4900AC799D /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D7D51423AC4900AC799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D7E31423AC4900AC799D /* InfoPlist.strings in Resources */,
+				3B11D7E61423AC4900AC799D /* SpikeMasterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B11D7D61423AC4900AC799D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B11D7AD1423AC4800AC799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB34D61423EB2800C64CE6 /* SectionViewController.m in Sources */,
+				3BAB34D71423EB2800C64CE6 /* SpikeSplitAppDelegate.m in Sources */,
+				3BAB34D81423EB2800C64CE6 /* SurveyViewController.m in Sources */,
+				3B11D8C31423D99900AC799D /* SpikeSlaveViewController.m in Sources */,
+				3B11D7C31423AC4900AC799D /* main.m in Sources */,
+				3B11D7C61423AC4900AC799D /* SpikeMasterAppDelegate.m in Sources */,
+				3B11D7CC1423AC4900AC799D /* DetailViewController.m in Sources */,
+				3B11D7D21423AC4900AC799D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B11D7D31423AC4900AC799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B11D7E81423AC4900AC799D /* SpikeMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B11D7DD1423AC4900AC799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B11D7B01423AC4800AC799D /* SpikeMaster */;
+			targetProxy = 3B11D7DC1423AC4900AC799D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B11D7BE1423AC4900AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D7BF1423AC4900AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B11D7C71423AC4900AC799D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D7C81423AC4900AC799D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3B11D7CD1423AC4900AC799D /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D7CE1423AC4900AC799D /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		3B11D7E11423AC4900AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D7E21423AC4900AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B11D8A21423D90100AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8A31423D90100AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B11D8A41423D90100AC799D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8A51423D90100AC799D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3B11D8A61423D90100AC799D /* SpikeSlaveViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8A71423D90100AC799D /* en */,
+			);
+			name = SpikeSlaveViewController.xib;
+			sourceTree = "<group>";
+		};
+		3B11D8B31423D90100AC799D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B11D8B41423D90100AC799D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BAB34B61423EB1800C64CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB34B71423EB1800C64CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BAB34B81423EB1800C64CE6 /* SectionView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB34B91423EB1800C64CE6 /* en */,
+			);
+			name = SectionView.xib;
+			sourceTree = "<group>";
+		};
+		3BAB34BA1423EB1800C64CE6 /* SpikeSplitMainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB34BB1423EB1800C64CE6 /* en */,
+			);
+			name = SpikeSplitMainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3BAB34C91423EB1800C64CE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB34CA1423EB1800C64CE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B11D7E91423AC4900AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3B11D7EA1423AC4900AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		3B11D7EC1423AC4900AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeMaster/SpikeMaster-Prefix.pch";
+				INFOPLIST_FILE = "SpikeMaster/SpikeMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B11D7ED1423AC4900AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeMaster/SpikeMaster-Prefix.pch";
+				INFOPLIST_FILE = "SpikeMaster/SpikeMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B11D7EF1423AC4900AC799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpikeMaster.app/SpikeMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeMasterTests/SpikeMasterTests-Prefix.pch";
+				INFOPLIST_FILE = "SpikeMasterTests/SpikeMasterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3B11D7F01423AC4900AC799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpikeMaster.app/SpikeMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpikeMasterTests/SpikeMasterTests-Prefix.pch";
+				INFOPLIST_FILE = "SpikeMasterTests/SpikeMasterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B11D7AB1423AC4800AC799D /* Build configuration list for PBXProject "SpikeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D7E91423AC4900AC799D /* Debug */,
+				3B11D7EA1423AC4900AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B11D7EB1423AC4900AC799D /* Build configuration list for PBXNativeTarget "SpikeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D7EC1423AC4900AC799D /* Debug */,
+				3B11D7ED1423AC4900AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B11D7EE1423AC4900AC799D /* Build configuration list for PBXNativeTarget "SpikeMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B11D7EF1423AC4900AC799D /* Debug */,
+				3B11D7F01423AC4900AC799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B11D7A81423AC4800AC799D /* Project object */;
+}
